@@ -1,0 +1,17 @@
+
+#include <stdio.h>
+
+    void main(){
+        float totalcompra;
+        printf("Insira o valor total da sua compra: ");
+        scanf("%f" , &totalcompra);
+        
+    if( totalcompra > 50.00  ) {
+        printf("Parabens, voce ganhou um brinde!\n");
+        printf("%.2f\n  " , totalcompra);
+    } else {
+       
+       
+    }
+        
+}
