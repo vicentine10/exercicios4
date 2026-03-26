@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main() {
+    int numero;
+        
+        printf("Tipo (casal - 1, familia com criança - 2, outros - 3):  ");
+        scanf("%d" , &numero);
+    
+        
+        
+            switch (numero) {
+            case 1:
+            printf("Indicar na área dos brinquedos");
+            break;
+            case 2:
+            printf("Indicar na área do jardim");
+            break;
+            case 3:
+            printf("Indicar na área vip");
+            break;
+            default:
+            printf("Erro detectado! informe um valor fornecido nas informações.");
+            break; 
+                
+            }
+    
+
+}
+
