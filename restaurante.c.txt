@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+    int numero;
+        
+        printf("Tipo (casal - 1, familia com criança - 2, outros - 3):  ");
+        scanf("%d" , &numero);
+    
+        
+        
+            switch (numero) {
+            case 1:
+            printf("ficará na área dos brinquedos");
+            break;
+            case 2:
+            printf("Ficará na área do jardim");
+            break;
+            default:
+            printf("Ficará na área vip ");
+            break; }
+    
+
+}
